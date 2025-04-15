@@ -22,7 +22,7 @@ app.use('/api/', nasaRoutes);
 
 // Test route
 app.get('/api', (req, res) => {
-    res.send('API is ran successfully');
+    res.send('NASA API ran successfully');
 });
 
 app.listen(port, () => {
